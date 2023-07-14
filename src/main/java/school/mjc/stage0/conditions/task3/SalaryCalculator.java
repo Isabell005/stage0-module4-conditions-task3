@@ -14,7 +14,7 @@ public class SalaryCalculator {
             int c = (salary * 20) / 100;
             float sum2 = salary - c;
             System.out.println(sum2);
-        } else if (salary < 0) {
+        } else if (salary < 0 ) {
             System.out.println("wrong input!");
         }
     }
